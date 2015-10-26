@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="3.0" type="template" client="site">
+
+    <name>Cinema</name>
+    <version>3.0</version>
+    <creationDate>07/10/2015</creationDate>
+    <author>José Alfredo Monroy (Freddy Monroy)</author>
+    <authorEmail>fredydeltoro@gmail</authorEmail>
+    <copyright>Copyright (C) 2015 José Alfredo Monroy</copyright>
+    <description>Plantilla para la empresa Tu Cine con un diseño flat</description>
+
+    <files>
+        <filename>index.php</filename>
+        <folder>css</folder>
+        <folder>html</folder>
+        <folder>less</folder>
+        <folder>js</folder>
+    </files>
+
+    <positions>
+        <position>menu</position>
+        <position>telefonos</position>
+        <position>banner</position>
+        <position>menu-footer</position>
+        <position>debug</position>
+    </positions>
+
+     <config>
+        <fields name="params">
+            <fieldset name="advanced">
+
+                <field name="logoFile" class="" type="media" default=""
+                label="Logo"
+                description="Sube la imagen de tu logo"/>
+                <field name="bkg_image" class="" type="media" default=""
+                label="Background"
+                description="Sube una imagen para el background"/>
+
+                <field type="spacer" name="ficha"  label="&lt;b&gt;Redes Sociales&lt;/b&gt;"/>
+
+                <field name="facebook" type="text" label="Facebook URL" description="Introduce la url del perfil" class="" />
+                <field name="twitter" type="text" label="Twitter URL" description="Introduce la url del perfil" class="" />
+                <field name="googleplus" type="text" label="Google Plus URL" description="Introduce la url del perfil" class="" />
+                
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
